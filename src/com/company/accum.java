@@ -1,17 +1,13 @@
 package com.company;
 
 import java.util.Scanner;
-
+import javax.swing.*;
 import static java.lang.System.in;
 import static java.lang.System.out;
 
 public class accum {
-
     public static String mumble(String s){
-        Scanner sc = new Scanner(in);
-        out.print("Word: ");
-        String word = sc.nextLine();
-        out.print(accum.mumble(word));
+
         int length = s.length();
         StringBuilder sb = new StringBuilder();
 
@@ -29,5 +25,14 @@ public class accum {
         }
         return sb.toString();
     }
+    public static void bullshit(String word){
+        Scanner sc = new Scanner(in);
+        out.print("Word: ");
+        String words = sc.nextLine();
+        out.print(accum.mumble(words));
+
+    }
 
 }
+
+
