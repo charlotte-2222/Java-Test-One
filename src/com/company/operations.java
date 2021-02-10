@@ -1,8 +1,5 @@
 package com.company;
-import java.text.NumberFormat;
-import java.util.Locale;
 import java.util.Scanner;
-import javax.swing.JOptionPane;
 import static java.lang.System.*;
 public class operations {
 
@@ -78,7 +75,22 @@ public class operations {
         out.println("\nTotal: "+answer);
     }
 
+    public static void factorial(){
+        int q, a, factor = 1;
+        Scanner input = new Scanner(in);
+        out.print("Enter a number: ");
+        q = input.nextInt();
+        if(q<0)
+            out.println("Enter a number greater than 0");
+        else{
+            for (a=1; a <=q; a++){
+                factor=factor*a;
 
+            }
+            out.println("Factorial of " +q+ " is "+factor);
+        }
+
+    }
 
 
 

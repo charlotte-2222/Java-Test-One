@@ -16,6 +16,10 @@ public class menu {
             out.println("6 = division: ");
             out.println("7 = raise to (X) power: ");
             out.println("8 = print a diamond: ");
+            out.println("9 = do a factorial: ");
+            out.println("10 = all words leading upper case: ");
+            out.println("11 = sarcasm case");
+
             out.print("Enter your choice: ");
             select = in.nextInt();
             return select;

@@ -1,10 +1,4 @@
 package com.company;
-import javax.swing.*;
-import java.util.Scanner;
-
-import static com.company.accum.mumble;
-import static java.lang.System.in;
-import static java.lang.System.out;
 public class Main {
 
 
@@ -24,13 +18,10 @@ public class Main {
             case 2: operations.wage(hr,
                         rate,
                         total);
-                break;
-
-            case 3:
-                operations.add(numA,
+            break;
+            case 3: operations.add(numA,
                     numB);
-                break;
-
+            break;
             case 4: operations.sub(numA,
                     numB);
             break;
@@ -41,16 +32,23 @@ public class Main {
 
             case 6: operations.div(numA,
                     numB);
-
             break;
 
             case 7: operations.power(numA,
                     numB);
             break;
 
-            case 8:
-                diamond.DiamondStuff();
-                break;
+            case 8: diamond.DiamondStuff();
+            break;
+
+            case 9: operations.factorial();
+            break;
+
+            case 10: strings.Up();
+            break;
+
+            case 11: strings.sarcy();
+            break;
 
 
 
