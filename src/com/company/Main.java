@@ -8,9 +8,7 @@ public class Main {
                 rate=0,
                 total = 0,
                 numA=0,
-                numB = 0,
-                answer = 0;
-
+                numB = 0;
         int choice = menu.Menu();
         switch(choice){
             case 1 : accum.bullshit(words);
@@ -25,32 +23,25 @@ public class Main {
             case 4: operations.sub(numA,
                     numB);
             break;
-
             case 5: operations.multi(numA,
                     numB);
             break;
-
             case 6: operations.div(numA,
                     numB);
             break;
-
             case 7: operations.power(numA,
                     numB);
             break;
-
             case 8: diamond.DiamondStuff();
             break;
-
             case 9: operations.factorial();
             break;
-
             case 10: strings.Up();
             break;
-
             case 11: strings.sarcy();
             break;
-
-
+            case 12: tiasClass.getTIAS();
+            break;
 
         }
 
